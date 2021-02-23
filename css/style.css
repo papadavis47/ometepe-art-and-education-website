@@ -1,12 +1,14 @@
-body {
-  background-color: #000;
-  height: 100%;
-  width: 100%;
+body,
+html {
+  height: 100vh;
+  background-color: #40407a;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arapey", serif;
   text-align: center;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 4em;
+  letter-spacing: 3px;
+  margin: 30px;
 }
