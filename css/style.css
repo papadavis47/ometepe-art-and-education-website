@@ -12,3 +12,12 @@ h1 {
   letter-spacing: 3px;
   margin: 30px;
 }
+
+h3 {
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+img {
+  box-shadow(16px 16px 10px black);
+}
