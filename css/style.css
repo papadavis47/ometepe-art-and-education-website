@@ -13,11 +13,14 @@ h1 {
   margin: 30px;
 }
 
+h2 {
+  font-size: 2em;
+  padding-bottom: 30px;
+}
+
 h3 {
   font-size: 2em;
   letter-spacing: 3px;
-}
-
-img {
-  box-shadow(16px 16px 10px black);
+  margin: 50px 0;
+  padding-bottom: 20px;
 }
