@@ -1,40 +1,16 @@
 body,
 html {
-  height: 100vh;
   background-color: #40407a;
-  color: white;
   font-family: "Arapey", serif;
-  text-align: center;
 }
 
-h1 {
-  font-size: 3.5em;
-  /* font-weight: 800; */
-  letter-spacing: 3px;
-  margin: 30px;
+.image {
+  max-width: 600px;
 }
 
-h2 {
-  font-size: 2em;
-  padding-bottom: 30px;
-}
-
-h3 {
-  font-size: 1.5em;
-  letter-spacing: 3px;
-  margin: 30px 0;
-  padding-bottom: 20px;
-}
-
-h4 {
-  font-size: 1.2em;
-  margin: 25px;
-  padding-bottom: 25px;
-}
-
-@media only screen and (max-width: 640px) {
-  img {
-    margin: 0 10px;
-    width: 90%;
-  }
+.is-centered-flexy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
