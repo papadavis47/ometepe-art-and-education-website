@@ -14,3 +14,7 @@ html {
   align-items: center;
   flex-direction: column;
 }
+
+.title {
+  letter-spacing: 4px;
+}
