@@ -6,15 +6,16 @@ html {
 
 .image {
   max-width: 600px;
+  max-height: 300px;
   box-shadow: 8px 12px 12px 5px rgba(0, 0, 0, 0.8);
 }
 
-.is-centered-flexy {
+/* .is-centered-flexy {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+} */
 
 .title {
   letter-spacing: 4px;
