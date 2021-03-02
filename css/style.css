@@ -8,10 +8,6 @@ img {
   box-shadow: 8px 12px 12px 5px rgba(0, 0, 0, 0.8);
 }
 
-/* .image {
-  box-shadow: 8px 12px 12px 5px rgba(0, 0, 0, 0.8);
-} */
-
 /* .is-centered-flexy {
   display: flex;
   justify-content: center;
@@ -28,4 +24,10 @@ img {
     max-width: 460px;
     max-height: 320px;
   }
+}
+
+.hero {
+  background: red;
+  background-image: url("/images/painting.jpg");
+  background-size: cover;
 }
