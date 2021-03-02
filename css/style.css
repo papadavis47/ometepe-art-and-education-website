@@ -26,5 +26,6 @@ img {
 @media (max-width: 678px) {
   img {
     max-width: 460px;
+    max-height: 320px;
   }
 }
