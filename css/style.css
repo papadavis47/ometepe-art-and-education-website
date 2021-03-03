@@ -4,7 +4,7 @@ html {
   font-family: "Arapey", serif;
 }
 
-img {
+.shadow {
   box-shadow: 8px 12px 12px 5px rgba(0, 0, 0, 0.8);
 }
 
@@ -20,7 +20,7 @@ img {
 }
 
 @media (max-width: 678px) {
-  img {
+  .shadow {
     max-width: 460px;
     max-height: 320px;
   }
