@@ -89,7 +89,7 @@
   </div>
 </section>
 
-<div class="columns section is-centered">
+<div class="columns section is-centered pb-1">
   <div class="column is-two-thirds">
   <article class="message is-dark is-large" id="mission">
     <div class="message-header">
@@ -99,8 +99,35 @@
   </article>
   </div>
 </div>
+<div class="has-text-centered mb-4 pb-6">
+     <button class="button mt-5" id="signup">Sign Up for our Newsletter</button>
+</div>
+  <!-- Modal -->
 
-
+  <div class="modal" id="modal-1">
+    <div class="modal-background" id="modal-bg-1"></div>
+    <div class="modal-content has-background-white py-5 px-5">
+      <h3 class="title mb-6">Our Mailing List</h3>
+      <form netlify>
+        <!-- Regular text input below -->
+        <div class="field">
+          <label class="label">Name</label>
+          <!-- Always use class of control for inputs like this from users -->
+          <!-- And surround it in a div with that class -->
+          <div class="control">
+            <input type="text" class="input" placeholder="Name">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input type="text" class="input" placeholder="Email">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End Modal -->
     
   <footer class="footer has-text-centered is-white">
      <h4 class="is-size-4"><span>&copy</span> Ometepe Art & Education 2021</h4>
