@@ -37,3 +37,21 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+#cuadros {
+  background: black;
+  background-image: url("../images/cuadros.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+#horses {
+  background: black;
+  background-image: url("../images/horses.jpg");
+  background-size: cover;
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
