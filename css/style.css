@@ -45,6 +45,8 @@ html {
   background-position: center center;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
 }
 
 #horses {
@@ -53,5 +55,7 @@ html {
   background-size: cover;
   /* background-position: center center; */
   background-repeat: no-repeat;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
   /* background-attachment: fixed; */
 }
