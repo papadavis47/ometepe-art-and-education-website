@@ -22,12 +22,12 @@ html {
   letter-spacing: 4px;
 }
 
-@media (max-width: 678px) {
+/* @media (max-width: 678px) {
   .shadow {
     max-width: 460px;
     max-height: 320px;
   }
-}
+} */
 
 #ometepe {
   background: black;
